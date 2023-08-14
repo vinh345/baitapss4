@@ -1,0 +1,15 @@
+div {
+    text-align: center;
+    opacity: 0.5;   
+    background-image: url("../bai1/ảnh/hinh-nen-chiec-o-cho-iphone-23.jpg");
+   
+}
+
+button {
+    color: rgb(3, 24, 24);
+    
+}
+
+p{
+    color:red;
+}

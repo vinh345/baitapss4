@@ -1,0 +1,12 @@
+p 
+{ font-family:'Times New Roman', Times, serif
+}
+b {
+    color: blue;
+}
+body{
+    background-color: lightblue;
+    text-align: justify;
+    width: 60%;
+}
+

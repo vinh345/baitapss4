@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .the1 {
+        display: inline-block;
+        margin: 20px;
+        border-radius: 1px;
+        border: solid 1px rgb(235, 230, 230);
+    }
+
+    .the img {
+        width: 50px;
+        height: 30px;
+        object-fit: contain;
+    }
+
+    .buttontype {
+        padding: 3px;
+        width: 75px;
+        color: rgb(241, 244, 247);
+        background-color: rgb(10, 122, 241);
+        border-radius: 100px;
+        text-align: center;
+    }
+
+    .row {
+        width: 100%;
+        /* background-color: aqua; */
+        margin-top: 10px;
+    }
+
+    .row .left {
+        width: 48%;
+        display: inline-block;
+    }
+
+    .row .right {
+        width: 48%;
+        display: inline-block;
+    }
+
+    .row .text {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .row > .left > .text {
+
+    }
+
+    .text {
+        border-color: rgb(219, 205, 205);
+    }
+</style>
+
+<body>
+    <div style="width: 475px;margin: auto">
+
+        <h1> Select Card</h1>
+        <div class="the">
+            <div class="the1">
+                <img src="/bai1/ảnh/master c.png" alt="">
+            </div>
+            <div class="the1">
+                <img src="/bai1/ảnh/payal.png" alt="">
+            </div>
+            <div class="the1">
+                <img src="/bai1/ảnh/visa.png" alt="">
+            </div>
+            <div class="the1">
+                <img src="/bai1/ảnh/american.jpg" alt="">
+            </div>
+            <div class="the1">
+                <img src="/bai1/ảnh/disco.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <label for="card">Card Number</label> <br />
+            <input class="text" type="number" id="card" name="card">
+        </div>
+        <div class="row">
+            <div class="left">
+                <label for="date">Expiry date</label><br />
+                <input class="text" type="date" id="date" name="date">
+            </div>
+            <div class="right">
+                <label for="CVC">CVC/CVV</label><br />
+                <input class="text" type="password" id="CVC" name="CVC">
+            </div>
+        </div>
+        <div class="buttontype">Save</div>
+    </div>
+
+
+
+</body>
+
+</html>
